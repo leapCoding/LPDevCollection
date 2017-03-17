@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		0C218B801E7C06E50074B3C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C218B7F1E7C06E50074B3C9 /* main.m */; };
 		0C218B831E7C06E50074B3C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C218B821E7C06E50074B3C9 /* AppDelegate.m */; };
-		0C218B861E7C06E50074B3C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C218B851E7C06E50074B3C9 /* ViewController.m */; };
 		0C218B891E7C06E50074B3C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C218B871E7C06E50074B3C9 /* Main.storyboard */; };
 		0C218B8B1E7C06E50074B3C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C218B8A1E7C06E50074B3C9 /* Assets.xcassets */; };
 		0C218B8E1E7C06E50074B3C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C218B8C1E7C06E50074B3C9 /* LaunchScreen.storyboard */; };
 		0C218B991E7C06E50074B3C9 /* LPDevCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C218B981E7C06E50074B3C9 /* LPDevCollectionTests.m */; };
 		0C218BA41E7C06E50074B3C9 /* LPDevCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C218BA31E7C06E50074B3C9 /* LPDevCollectionUITests.m */; };
+		0C9F8E3D1E7C2CF400612EC4 /* IFTTTPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F8E3C1E7C2CF400612EC4 /* IFTTTPageViewController.m */; };
+		16DCACAD30A2D6C49CE8D35A /* libPods-LPDevCollection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DFEE3E4CB5CD52E592CC406 /* libPods-LPDevCollection.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		0C218B7F1E7C06E50074B3C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C218B811E7C06E50074B3C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C218B821E7C06E50074B3C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0C218B841E7C06E50074B3C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0C218B851E7C06E50074B3C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0C218B881E7C06E50074B3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C218B8A1E7C06E50074B3C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C218B8D1E7C06E50074B3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,12 @@
 		0C218B9F1E7C06E50074B3C9 /* LPDevCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPDevCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C218BA31E7C06E50074B3C9 /* LPDevCollectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPDevCollectionUITests.m; sourceTree = "<group>"; };
 		0C218BA51E7C06E50074B3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C9F8E391E7C145E00612EC4 /* LPDevCollection-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LPDevCollection-Prefix.pch"; sourceTree = "<group>"; };
+		0C9F8E3B1E7C2CF400612EC4 /* IFTTTPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTPageViewController.h; sourceTree = "<group>"; };
+		0C9F8E3C1E7C2CF400612EC4 /* IFTTTPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTTTPageViewController.m; sourceTree = "<group>"; };
+		19027DD98761E5CF8BBBAD81 /* Pods-LPDevCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPDevCollection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LPDevCollection/Pods-LPDevCollection.debug.xcconfig"; sourceTree = "<group>"; };
+		7DFEE3E4CB5CD52E592CC406 /* libPods-LPDevCollection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LPDevCollection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F047956C2C229FA9884B6741 /* Pods-LPDevCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LPDevCollection.release.xcconfig"; path = "Pods/Target Support Files/Pods-LPDevCollection/Pods-LPDevCollection.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16DCACAD30A2D6C49CE8D35A /* libPods-LPDevCollection.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,8 @@
 				0C218B971E7C06E50074B3C9 /* LPDevCollectionTests */,
 				0C218BA21E7C06E50074B3C9 /* LPDevCollectionUITests */,
 				0C218B7C1E7C06E50074B3C9 /* Products */,
+				BDE228DA5D173F27A9E4FE5D /* Pods */,
+				B7D99B0829B1BB65FF57BCB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +109,12 @@
 		0C218B7D1E7C06E50074B3C9 /* LPDevCollection */ = {
 			isa = PBXGroup;
 			children = (
+				0C9F8E3A1E7C271600612EC4 /* JazzHandsDemo */,
 				0C218B811E7C06E50074B3C9 /* AppDelegate.h */,
 				0C218B821E7C06E50074B3C9 /* AppDelegate.m */,
-				0C218B841E7C06E50074B3C9 /* ViewController.h */,
-				0C218B851E7C06E50074B3C9 /* ViewController.m */,
 				0C218B871E7C06E50074B3C9 /* Main.storyboard */,
 				0C218B8A1E7C06E50074B3C9 /* Assets.xcassets */,
+				0C9F8E391E7C145E00612EC4 /* LPDevCollection-Prefix.pch */,
 				0C218B8C1E7C06E50074B3C9 /* LaunchScreen.storyboard */,
 				0C218B8F1E7C06E50074B3C9 /* Info.plist */,
 				0C218B7E1E7C06E50074B3C9 /* Supporting Files */,
@@ -140,6 +148,32 @@
 			path = LPDevCollectionUITests;
 			sourceTree = "<group>";
 		};
+		0C9F8E3A1E7C271600612EC4 /* JazzHandsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0C9F8E3B1E7C2CF400612EC4 /* IFTTTPageViewController.h */,
+				0C9F8E3C1E7C2CF400612EC4 /* IFTTTPageViewController.m */,
+			);
+			path = JazzHandsDemo;
+			sourceTree = "<group>";
+		};
+		B7D99B0829B1BB65FF57BCB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DFEE3E4CB5CD52E592CC406 /* libPods-LPDevCollection.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDE228DA5D173F27A9E4FE5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19027DD98761E5CF8BBBAD81 /* Pods-LPDevCollection.debug.xcconfig */,
+				F047956C2C229FA9884B6741 /* Pods-LPDevCollection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C218BA81E7C06E50074B3C9 /* Build configuration list for PBXNativeTarget "LPDevCollection" */;
 			buildPhases = (
+				6B8B8E7A027F898657B7BF25 /* [CP] Check Pods Manifest.lock */,
 				0C218B771E7C06E50074B3C9 /* Sources */,
 				0C218B781E7C06E50074B3C9 /* Frameworks */,
 				0C218B791E7C06E50074B3C9 /* Resources */,
+				D9F0C455EA344A5BFCAD8851 /* [CP] Embed Pods Frameworks */,
+				E6C6DDFB16819667DC98BC5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +305,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B8B8E7A027F898657B7BF25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9F0C455EA344A5BFCAD8851 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LPDevCollection/Pods-LPDevCollection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6C6DDFB16819667DC98BC5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LPDevCollection/Pods-LPDevCollection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0C218B771E7C06E50074B3C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C218B861E7C06E50074B3C9 /* ViewController.m in Sources */,
 				0C218B831E7C06E50074B3C9 /* AppDelegate.m in Sources */,
 				0C218B801E7C06E50074B3C9 /* main.m in Sources */,
+				0C9F8E3D1E7C2CF400612EC4 /* IFTTTPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +507,7 @@
 		};
 		0C218BA91E7C06E50074B3C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19027DD98761E5CF8BBBAD81 /* Pods-LPDevCollection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LPDevCollection/Info.plist;
@@ -433,6 +519,7 @@
 		};
 		0C218BAA1E7C06E50074B3C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F047956C2C229FA9884B6741 /* Pods-LPDevCollection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LPDevCollection/Info.plist;
@@ -507,6 +594,7 @@
 				0C218BAA1E7C06E50074B3C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C218BAB1E7C06E50074B3C9 /* Build configuration list for PBXNativeTarget "LPDevCollectionTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +603,7 @@
 				0C218BAD1E7C06E50074B3C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C218BAE1E7C06E50074B3C9 /* Build configuration list for PBXNativeTarget "LPDevCollectionUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +612,7 @@
 				0C218BB01E7C06E50074B3C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
