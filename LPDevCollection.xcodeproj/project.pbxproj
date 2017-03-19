@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C07CCB41E7D5BA500456EA0 /* LPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPConstants.h; sourceTree = "<group>"; };
 		0C218B7B1E7C06E50074B3C9 /* LPDevCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPDevCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C218B7F1E7C06E50074B3C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C218B811E7C06E50074B3C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +119,7 @@
 				0C218B8C1E7C06E50074B3C9 /* LaunchScreen.storyboard */,
 				0C218B8F1E7C06E50074B3C9 /* Info.plist */,
 				0C218B7E1E7C06E50074B3C9 /* Supporting Files */,
+				0C07CCB41E7D5BA500456EA0 /* LPConstants.h */,
 			);
 			path = LPDevCollection;
 			sourceTree = "<group>";
@@ -510,6 +512,8 @@
 			baseConfigurationReference = 19027DD98761E5CF8BBBAD81 /* Pods-LPDevCollection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/lipeng/Desktop/LPDevCollection/LPDevCollection/LPDevCollection-Prefix.pch";
 				INFOPLIST_FILE = LPDevCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LPDev.LPDevCollection;
@@ -522,6 +526,8 @@
 			baseConfigurationReference = F047956C2C229FA9884B6741 /* Pods-LPDevCollection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/lipeng/Desktop/LPDevCollection/LPDevCollection/LPDevCollection-Prefix.pch";
 				INFOPLIST_FILE = LPDevCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LPDev.LPDevCollection;
